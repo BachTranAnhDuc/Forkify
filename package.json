@@ -1,0 +1,29 @@
+{
+  "name": "meal-app",
+  "version": "1.0.0",
+  "description": "meal app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BachTranAnhDuc/Forkify.git"
+  },
+  "author": "Bach Tran Anh Duc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BachTranAnhDuc/Forkify/issues"
+  },
+  "homepage": "https://github.com/BachTranAnhDuc/Forkify#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2",
+    "sass": "^1.54.0"
+  },
+  "dependencies": {
+    "core-js": "^3.24.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
